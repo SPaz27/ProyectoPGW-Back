@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const LugarActividad = sequelize.define('lugarActividad', {
+const Pabellon = sequelize.define('pabellon', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -13,4 +13,4 @@ const LugarActividad = sequelize.define('lugarActividad', {
   },
 });
 
-export default LugarActividad;
+export default Pabellon;
