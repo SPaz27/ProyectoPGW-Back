@@ -1,4 +1,4 @@
-// .\backend\index.js
+// .\index.js
 import app from './app.js'
 import sequelize from './src/config/database.js';
 

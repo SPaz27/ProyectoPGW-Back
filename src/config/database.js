@@ -1,4 +1,4 @@
-// .\backend\src\config\database.js
+// .\src\config\database.js
 import Sequelize from 'sequelize'
 import pg from 'pg'
 
