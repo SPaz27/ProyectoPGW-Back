@@ -11,6 +11,15 @@ const Lugar = sequelize.define('lugar', {
     type: DataTypes.STRING(100),
     allowNull: false,
   },
+  pabellonId: {
+    type: DataTypes.INTEGER,
+    references: {
+      model: 'pabellon',
+      key: 'id'
+    },
+    onDelete: 'CASCADE',
+    onUpdate: 'CASCADE',
+  }
 });
 
 export default Lugar;
