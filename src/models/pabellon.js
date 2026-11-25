@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const Pabellon = sequelize.define('pabellon', {
+const Pabellon = sequelize.define('Pabellon', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,

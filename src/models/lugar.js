@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const Lugar = sequelize.define('lugar', {
+const Lugar = sequelize.define('Lugar', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -14,7 +14,7 @@ const Lugar = sequelize.define('lugar', {
   pabellonId: {
     type: DataTypes.INTEGER,
     references: {
-      model: 'pabellon',
+      model: 'Pabellon',
       key: 'id'
     },
     onDelete: 'CASCADE',

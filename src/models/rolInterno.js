@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const RolInterno = sequelize.define('rolInterno', {
+const RolInterno = sequelize.define('RolInterno', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,

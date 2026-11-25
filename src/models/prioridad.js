@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const Prioridad = sequelize.define('prioridad', {
+const Prioridad = sequelize.define('Prioridad', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,

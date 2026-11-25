@@ -1,7 +1,7 @@
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
-const Carrera = sequelize.define('carrera', {
+const Carrera = sequelize.define('Carrera', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
