@@ -1,3 +1,4 @@
+// .\src\models\pabellon.js
 import sequelize from "../config/database.js";
 import { DataTypes } from "sequelize";
 
