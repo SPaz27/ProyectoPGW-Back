@@ -1,3 +1,5 @@
+// .\src\repositories\RepositoryEstado.js
+// H4
 import { Estado } from '../models/relaciones.js';
 import RepositoryBase from './RepositoryBase.js';
 

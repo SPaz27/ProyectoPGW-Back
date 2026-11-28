@@ -1,3 +1,5 @@
+// .\src\repositories\RepositoryCategoria.js
+// H2
 import { Categoria } from '../models/relaciones.js';
 import RepositoryBase from './RepositoryBase.js';
 
